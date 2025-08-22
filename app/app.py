@@ -1,11 +1,16 @@
 
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 
 # 🖥️ Streamlit App (`app/app.py`)
 
 
 import streamlit as st
-from toolkit import generate_scale, build_chord, chord_progression_major
+from music_toolkit.scales import generate_scale
+from music_toolkit.chords import build_chord
+from music_toolkit.progressions import chord_progression_major
 
 st.title("🎶 Python Music Theory Toolkit")
 
