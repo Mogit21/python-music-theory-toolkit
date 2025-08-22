@@ -1,5 +1,5 @@
 numpy
 pygame
 mido
-python-rtmidi  # optional for real-time MIDI
+# python-rtmidi  # optional for real-time MIDI
 streamlit
