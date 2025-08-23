@@ -23,7 +23,7 @@ def write_scale_midi(filename: str, scale_notes: List[Tuple[str, int]], bpm: int
     mid.tracks.append(track)
     track.append(Message('program_change', program=0, time=0))
     tempo = bpm2tempo(bpm)
-    track.append(Message('meta', time=0))  # placeholder; mido handles tempo via MetaMessage
+    track.append(MetaMessage(time=0))  # placeholder; mido handles tempo via MetaMessage
     from mido import MetaMessage
     track.append(MetaMessage('set_tempo', tempo=tempo))
     # quarter note ticks
