@@ -60,9 +60,27 @@ Music Data Analysis with Python
 
 🎹 Try It Online
 
-Run in Google Colab
+You can explore and interact with the toolkit in two ways:
 
-Streamlit Demo
+1. Google Colab (Recommended for Tutorials & Learning)
+
+Run the examples and demos from your browser — no installation required.
+
+Ideal for learning, experimenting, and modifying code interactively.
+
+Each notebook in examples/ can be opened directly in Colab.
+
+Try it: Open in Google Colab
+
+2. Streamlit App (Recommended for Interactive Use)
+
+A web app that lets you interact with the toolkit without touching the code.
+
+Choose scales, generate chords, train your ear, and export MIDI/Sheet Music with a simple interface.
+
+Uses the main script app/app.py and can be deployed online via Streamlit Cloud or your own server.
+
+Try it: Streamlit Demo
 
 📜 License
 
